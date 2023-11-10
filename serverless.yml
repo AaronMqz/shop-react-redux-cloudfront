@@ -1,4 +1,4 @@
-service: service-shop-react-cloudfront-v1
+service: service-shop-react-cloudfront-v5
 
 frameworkVersion: "3"
 
@@ -16,7 +16,7 @@ plugins:
 
 custom:
   client:
-    bucketName: app-shop-react-aaron-v1
+    bucketName: app-shop-react-aaron-v5
     distributionFolder: dist
   s3BucketName: ${self:custom.client.bucketName}
 
